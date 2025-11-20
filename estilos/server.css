@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+background-color: rgb(0, 0, 0);
+}
+
+
+
+.container{
+    max-width: 1500px;
+   margin: 0 auto;
+
+}
+
+.header{
+    background-image: linear-gradient(
+rgba(0,0,0,0.7),
+rgba(0,0,0,0.7)),
+url(../fondos/fondoprincipal.jpg);
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 70vh;
+display: flex;
+align-items: center;
+background-attachment: fixed;
+}
+
+.menu {
+  
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+padding-top: 20px;
+padding-bottom: 20px;
+background-image: linear-gradient(
+rgba(0,0,0,0.7),
+rgba(0,0,0,0.7)),
+url(../fondos/fondoprincipal.jpg);
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+background-attachment: fixed;
+
+
+}
+
+.logo img{
+display: block;
+margin: 0 auto;
+}
+
+
+
+.menu .navbar ul li {
+    
+    position: relative;
+    
+    
+
+}
+
+.menu .navbar ul li a {
+    
+    padding: 20px;
+    color: #FFFDFC;
+    display: flex;
+    font-weight: 600;
+    
+}
+
+.menu .navbar ul li a:hover{
+color: #913eea;
+}
+
+#menu {
+    display: none;
+
+}
+
+.menu-icono{
+    width: 35px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    
+    height: 635px;
+    text-align: center;
+    
+
+}
+
+.header-content h1{
+    
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p{
+    font-size: 25px;
+    color: #F9FAFC;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1{
+    font-size: 25px;
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #d2922c;
+    color: #000000;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.btn-1:hover{
+    background-color: #e8c655;
+}
+
+.btn-2{
+    font-size: 25px;
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #d2922c;
+    color: #000000;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.btn-2:hover{
+    background-color: #e8c655;
+}
+
+.equipo{
+
+background-image: linear-gradient(
+rgba(0,0,0,0.7),
+rgba(0,0,0,0.7)),
+url(../fondos/fondo2.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 50px 0;
+height: 380px;
+   
+}
+
+.equipo-content{
+text-align: center;
+
+}
+
+.equipo-content h2{
+   font-size: 55px;
+   line-height: 70px;
+   color: #F9FAFC;
+   text-transform: uppercase;
+   margin-bottom: 50px;
+    
+}
+
+.equipo-content p{
+    font-size: 18px;
+    color: #F9FAFC;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.equipo-personas{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.personas{
+    padding: 0 100px;
+}
+
+.personas img{
+    width: 60px;
+    margin-bottom: 15px;
+
+}
+
+.personas h3{
+    color: #F9FAFC;
+    font-size: 20px;
+
+}
+
+.footer{
+padding: 100px 0;
+background-image: linear-gradient(
+rgba(0,0,0,0.7),
+rgba(0,0,0,0.7)),
+url(../fondos/fondoprincipal.jpg);
+background-position: center bottom;
+background-repeat: no-repeat;
+background-size: cover;
+height: 5px;
+display: flex;
+align-items: center;
+background-attachment: fixed;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.link h3{
+    font-size: 30px;
+    color: #F9FAFC;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #F9FAFC;
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+@media(max-width:991px) {
+    
+   
+    .logo {
+        padding-top: 30px;
+    }
+    
+
+    .logo img {
+        width: 110px;
+        
+        display: block;
+        margin: 0 auto;
+        
+       
+   
+    }
+
+    .menu{
+        
+        padding: 20px;
+    }
+    
+    .menu label {
+        
+        display: initial;
+    }
+
+   
+
+
+    .menu .navbar{
+        position: relative;
+       
+        display: none;
+
+    }
+
+    .menu .navbar ul li{
+        
+        width: 100%;
+
+    }
+
+.menu .navbar ul li a{
+        
+        padding: 5px;
+
+    }
+
+    .menu .navbar ul li img{
+        width: 25px;
+
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        height: 555px;
+        min-height: 0vh;
+
+    }
+
+    .header-content {
+        
+        padding: 50px 30px;
+
+    }
+
+ .header-content h1{
+        
+    font-size: 30px;
+
+    }
+
+    .header-content p {
+        font-size: 15px;
+        padding: 0;
+
+    }
+
+.btn-1{
+    font-size: 15px;
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #d2922c;
+    color: #000000;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.btn-1:hover{
+    background-color: #e8c655;
+}
+
+.btn-2{
+    font-size: 15px;
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #d2922c;
+    color: #000000;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.btn-2:hover{
+    background-color: #e8c655;
+}
+
+.equipo {
+    height: 700px;
+    padding: 10px;
+}
+
+.equipo-content p{
+    padding: 0;
+}
+
+.equipo-content h2{
+    font-size: 30px;
+}
+
+.equipo-content h3{
+    font-size: 12px;
+}
+
+.equipo-personas {
+    flex-direction: column;
+    margin-bottom: 0;
+
+}
+
+.personas {
+    margin-bottom: 25px;
+
+}
+
+.personas img{
+    width: 50px;
+
+}
+
+.footer-content h3 {
+    font-size: 30px;
+}
+
+}
