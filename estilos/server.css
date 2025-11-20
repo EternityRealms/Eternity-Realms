@@ -314,7 +314,7 @@ background-attachment: fixed;
     }
 
     .header {
-        height: 555px;
+        height: 600px;
         min-height: 0vh;
 
     }
@@ -327,7 +327,7 @@ background-attachment: fixed;
 
  .header-content h1{
         
-    font-size: 30px;
+    font-size: 25px;
 
     }
 
@@ -401,5 +401,6 @@ background-attachment: fixed;
 .footer-content h3 {
     font-size: 30px;
 }
+
 
 }
